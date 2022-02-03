@@ -1,0 +1,104 @@
+.btnPrimary {
+   background-color: #E18357 !important;
+   border-radius: 8px;
+   color: #323339 !important;
+   cursor: pointer;
+   display: inline-block;
+   font-weight: 500;
+   letter-spacing: 0.2px;
+   margin-bottom: 0 !important;
+   padding: 11px 64px;
+   text-decoration: none;
+   white-space: nowrap;
+   -webkit-tap-highlight-color: transparent;
+}
+
+.btnPrimary:hover {
+   color: #fff !important
+}
+
+.btnSecondary {
+   font-weight: 600;
+   color: #AA9377 !important;
+   position: relative;
+}
+
+.btnSecondary:hover {
+   opacity: .8;
+}
+
+.btnSecondary::after {
+   content: "";
+   position: relative;
+   transition: 0.3s;
+   padding-left: 17%;
+   background: url('https://www.ufbdirect.com/-/media/UFB%20Direct/Icons/axos-icon') no-repeat center center / contain;
+   width: 15px;
+   height: 100%;
+   top: 1px;
+}
+
+.container {
+   margin: 0 auto;
+   max-width: 1200px;
+   width: calc(100% - 3.125rem);
+}
+
+.container p {
+   line-height: 1.44;
+   letter-spacing: .2px;
+}
+
+.flexRow {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: nowrap;
+   flex-wrap: nowrap
+}
+
+.mainTitle {
+   font: 600 40px/1.25 "Lora";
+   letter-spacing: 0.2px;
+}
+
+.mb0 {
+   margin-bottom: 0;
+}
+
+.middle {
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center
+}
+
+@media (max-width:1267px) {
+   .btnPrimary {
+      padding: 11px 50px;
+   }
+}
+
+@media (max-width:1200px) {
+   .mainTitle {
+      font-size: 34px;
+   }
+}
+
+@media (max-width:768px) {
+   .main-title {
+      font-size: 28px;
+      line-height: 1.29;
+   }
+}
+
+@media (max-width:550px) {
+   .container {
+      width: calc(100% - 2rem);
+   }
+}
+
+@media (max-width:320px) {
+   .mainTitle {
+      font-size: 25px;
+   }
+}
