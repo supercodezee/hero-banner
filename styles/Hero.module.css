@@ -33,18 +33,19 @@
 }
 
 .superTag {
+  color: #e18357;
   font-size: 18px;
   letter-spacing: .2px;
   line-height: 1.43;
   font-weight: 700;
-  background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
+/*   background-image: linear-gradient(315deg, #ee9617 0%, #fe5858 74%);
   background-size: 100%;
   background-repeat: repeat;
-  display: inline-block;
+  display: inline-block; */
   margin-bottom: .2rem;
-  background-clip: text;
+/*   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent
+  -webkit-text-fill-color: transparent */
 }
 
 .textWrapper {
