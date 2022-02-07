@@ -6,7 +6,7 @@ import styles from '../styles/Hero.module.css'
 // ──────────────────────────────────────────────────  CONTENT:  ───────────────────
 
 let text = {
-  tag: 'High Yield Savings',
+  tag: 'UFB Direct',
   title: 'High Yield Savings',
   description: 'Take your money further, faster. No monthly maintenance fees. No minimum balance requirements. Interest compounded daily.',
 }
